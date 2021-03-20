@@ -1,0 +1,81 @@
+/* Master Stylesheet
+ * Version: 1.0
+ *
+ * Powered by VLThemes
+ *
+ * 01. Helpers
+ * 02. Base
+ * 03. Layout
+ * 04. Pages
+ * 05. Partials
+ * 06. Vendors
+ * 07. Widgets
+ * 08. WordPress
+ */
+
+/* 01. Helpers */
+
+@import 'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins',
+'abstracts/keyframes',
+'abstracts/snippets';
+
+/* 02. Base */
+
+@import 'base/helper-classes',
+'base/custom-css',
+'base/typography',
+'base/gutenberg';
+
+/* 03. Layout */
+
+@import 'layout/grid',
+'layout/header',
+'layout/footer';
+
+/* 04. Pages */
+
+@import 'pages/404',
+'pages/blog',
+'pages/portfolio';
+
+/* 05. Partials */
+
+@import 'partials/fixed-socials',
+'partials/language-switcher',
+'partials/site-overlay',
+'partials/site-preloader',
+'partials/social-icons';
+
+/* 06. Vendors */
+
+@import 'vendors/fancybox',
+'vendors/jarallax',
+'vendors/like-button',
+'vendors/masonry';
+
+/* 07. Widgets */
+
+@import 'widgets/animate-element',
+'widgets/button',
+'widgets/contact-form-7',
+'widgets/content-slider',
+'widgets/experience-block',
+'widgets/fullpage-slider',
+'widgets/partners',
+'widgets/progress-bar',
+'widgets/pullquote',
+'widgets/simple-image',
+'widgets/slider-controls',
+'widgets/testimonial',
+'widgets/timeline-item',
+'widgets/video-button';
+
+/* 08. WordPress */
+@import 'wordpress/link-pages',
+'wordpress/page-title',
+'wordpress/comments',
+'wordpress/sidebar',
+'wordpress/password-form',
+'wordpress/pagination';

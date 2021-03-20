@@ -1,0 +1,41 @@
+/* WIDGET: PROGRESS BAR
+-------------------------------------------- */
+
+.vlt-progress-bar {
+
+	&__title {
+		margin: 0 0 px2rem(16px);
+		font-size: px2rem(13px);
+		text-transform: uppercase;
+
+		>span {
+			float: right;
+
+			&::after {
+				content: '%';
+			}
+
+		}
+
+	}
+
+	&__bar {
+		position: relative;
+		width: 100%;
+		height: px2rem(7px);
+		border-radius: px2rem(7px);
+		background-color: $c1;
+		overflow: hidden;
+
+		span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			border-radius: px2rem(7px);
+			background-color: $ac1;
+		}
+
+	}
+
+}

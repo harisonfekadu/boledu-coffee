@@ -1,0 +1,11 @@
+/* ANCHOR: RECENT COMMENTS
+-------------------------------------------- */
+
+.vlt-widget.widget_recent_comments {
+	@extend .vlt-widget.widget_categories;
+
+	li + li {
+		margin-top: px2rem(10px);
+	}
+
+}

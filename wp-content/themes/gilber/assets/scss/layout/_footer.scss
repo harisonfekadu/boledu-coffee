@@ -1,0 +1,45 @@
+/* LAYOUT: FOOTER
+-------------------------------------------- */
+
+.vlt-footer {
+	width: 100%;
+}
+
+.vlt-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 px2rem(30px) px2rem(30px);
+	color: $c1;
+	pointer-events: none;
+
+	@include mq('xlarge', min) {
+		padding: 0 px2rem(60px) px2rem(40px);
+	}
+
+	&--fixed {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: z('footer-fixed');
+
+		@media (max-height: 559px) {
+			display: none;
+		}
+
+	}
+
+}
+
+/* FOOTER COPYRIGHT
+-------------------------------------------- */
+
+.vlt-footer-copyright {
+	font-size: px2rem(15px);
+	pointer-events: auto;
+
+	p {
+		margin-bottom: 0;
+	}
+
+}

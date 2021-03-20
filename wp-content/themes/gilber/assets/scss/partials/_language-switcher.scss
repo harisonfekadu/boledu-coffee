@@ -1,0 +1,17 @@
+/* PARTIAL: LANGUAGE SWITCHER
+-------------------------------------------- */
+
+.vlt-language-switcher {
+	font-size: px2rem(15px);
+	text-transform: uppercase;
+	pointer-events: auto;
+
+	a.is-active {
+		color: $ac1;
+	}
+
+	a+a {
+		margin-left: px2rem(25px);
+	}
+
+}

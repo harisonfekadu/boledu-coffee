@@ -1,0 +1,36 @@
+/* WIDGET: SIMPLE IMAGE
+-------------------------------------------- */
+
+.vlt-simple-image {
+	position: relative;
+	overflow: hidden;
+
+	&__mask {
+		position: absolute;
+		left: 100%;
+		top: 0;
+		bottom: 0;
+		width: 120%;
+		transform: translate3d(-100%, 0, 0);
+		transition-property: transform;
+		transition-duration: 700ms;
+		z-index: 1;
+
+		&.active {
+			transform: translateZ(0);
+		}
+
+		.inside {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background-color: $c2;
+			transform: skewX(-10deg);
+			transform-origin: bottom;
+		}
+
+	}
+
+}

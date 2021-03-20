@@ -1,0 +1,18 @@
+/* PARTIAL: SOCIAL ICONS
+-------------------------------------------- */
+
+.vlt-social-icon {
+	display: inline-flex;
+}
+
+/* STYLE 1
+-------------------------------------------- */
+
+.vlt-social-icon.vlt-social-icon--style-1 {
+	font-size: px2rem(22px);
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+}

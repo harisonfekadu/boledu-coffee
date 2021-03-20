@@ -1,0 +1,46 @@
+/* WIDGET: TIMELINE ITEM
+-------------------------------------------- */
+
+.vlt-timeline-item {
+
+	&:not(:last-of-type) {
+		padding-bottom: px2rem(50px);
+	}
+
+	&+& {
+		padding-top: px2rem(50px);
+		border-top: 1px solid rgba($c1, 0.4);
+	}
+
+
+	&__date {
+		display: block;
+		margin-bottom: px2rem(5px);
+		font-size: px2rem(15px);
+		color: rgba($c1, 0.6);
+
+		@include mq('xlarge') {
+			margin-top: px2rem(20px);
+		}
+
+	}
+
+	&__title {
+		margin: 0;
+	}
+
+	&__text {
+		font-size: px2rem(15px);
+		color: rgba($c1, 0.6);
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+
+		@include mq('xlarge') {
+			margin-top: px2rem(10px);
+		}
+
+	}
+
+}

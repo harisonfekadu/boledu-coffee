@@ -1,0 +1,79 @@
+/* WORDPRESS: PAGINATION
+-------------------------------------------- */
+
+.vlt-pagination {
+	display: block;
+	margin-top: px2rem(120px);
+}
+
+/* PAGED
+-------------------------------------------- */
+
+.vlt-pagination--paged {
+	display: flex;
+	justify-content: space-between;
+
+	.prev,
+	.next {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: px2rem(50px);
+		width: px2rem(50px);
+		margin: 0 px2rem(5px);
+		color: $c1;
+		background-color: transparent;
+		box-shadow: inset 0 0 0 1px $c1;
+
+		&:hover {
+			color: $c1;
+			background-color: $ac1;
+			box-shadow: inset 0 0 0 1px $ac1;
+		}
+
+	}
+
+}
+
+/* NUMERIC
+-------------------------------------------- */
+
+.vlt-pagination--numeric {
+
+	ul {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	li {
+		float: left;
+
+		&+li {
+			margin-left: px2rem(10px);
+		}
+
+	}
+
+	li>a,
+	li>span {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: px2rem(50px);
+		width: px2rem(50px);
+		color: $c1;
+		background-color: transparent;
+		box-shadow: inset 0 0 0 1px $c1;
+
+		&.current,
+		&:hover {
+			color: $c1;
+			background-color: $ac1;
+			box-shadow: inset 0 0 0 1px $ac1;
+		}
+
+	}
+
+}

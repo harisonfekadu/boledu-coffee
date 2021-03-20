@@ -1,0 +1,208 @@
+
+---Downloaded files---
+The import files for: Main Demo (All Pages) were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888/boledu-coffee-2
+Data file = /Applications/MAMP/htdocs/boledu-coffee-2/wp-content/themes/filix/inc/demos/default/contents.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+filix_opt -> /Applications/MAMP/htdocs/boledu-coffee-2/wp-content/themes/filix/inc/demos/default/theme-settings.json 
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				slide4		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				slide4		" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				banner_bg		" (Media)
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				client_bg		" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				about-us-video		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				about-us-video		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				about-us-video		" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing Redux settings---
+Redux settings import for: filix_opt finished successfully!
+
+---pt-ocdi/after_import---
+

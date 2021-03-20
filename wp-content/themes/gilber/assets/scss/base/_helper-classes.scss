@@ -1,0 +1,59 @@
+/* ANCHOR: COLORS
+-------------------------------------------- */
+
+.has-accent-color {
+	color: $ac1;
+}
+
+.has-white-color {
+	color: $c1;
+}
+
+/* MESSAGE COLORS
+-------------------------------------------- */
+
+.vlt-display-1 {
+	display: block;
+	font-size: px2rem(16px);
+}
+
+/* MESSAGE COLORS
+-------------------------------------------- */
+
+.message.success {
+	color: $c1;
+}
+
+.message.danger {
+	color: $ac1;
+}
+
+/* GAPS
+-------------------------------------------- */
+
+.vlt-gap-30 {
+	@include gap(30px);
+}
+
+/* ANIMATE
+-------------------------------------------- */
+
+.animate__fadeInUpSm {
+	animation-name: vlt_fade_in_up_sm;
+	animation-timing-function: ease-in-out;
+}
+
+.animate__fadeInDownSm {
+	animation-name: vlt_fade_in_down_sm;
+	animation-timing-function: ease-in-out;
+}
+
+.animate__fadeInLeftSm {
+	animation-name: vlt_fade_in_left_sm;
+	animation-timing-function: ease-in-out;
+}
+
+.animate__fadeInRightSm {
+	animation-name: vlt_fade_in_right_sm;
+	animation-timing-function: ease-in-out;
+}

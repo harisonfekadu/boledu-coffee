@@ -1,0 +1,48 @@
+/* WIDGET: PARTNERS
+-------------------------------------------- */
+
+.vlt-partners {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: px2rem(50px);
+	grid-row-gap: px2rem(150px);
+	margin: 0 px2rem(-50px);
+	padding: 0;
+	list-style-type: none;
+
+	@include mq('large') {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@include mq('medium') {
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: px2rem(70px);
+		grid-row-gap: px2rem(70px);
+	}
+
+	@include mq('small') {
+		grid-template-columns: repeat(1, 1fr);
+		grid-column-gap: px2rem(70px);
+		grid-row-gap: px2rem(70px);
+	}
+
+	li {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			width: px2rem(125px);
+			height: auto;
+			transition: opacity 300ms;
+			opacity: .4;
+
+			&:hover {
+				opacity: 1;
+			}
+
+		}
+
+	}
+
+}

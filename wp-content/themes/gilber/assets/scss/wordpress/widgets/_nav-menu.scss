@@ -1,0 +1,20 @@
+/* ANCHOR: NAV MENU
+-------------------------------------------- */
+
+.vlt-widget.widget_nav_menu {
+	@extend .vlt-widget.widget_categories;
+
+	.sf-with-ul::after {
+		content: '+';
+		padding-left: px2rem(5px);
+	}
+
+	.sfHover > .sf-with-ul::after {
+		content: '-';
+	}
+
+	ul.sub-menu {
+		display: none;
+	}
+
+}

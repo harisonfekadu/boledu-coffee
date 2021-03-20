@@ -1,0 +1,77 @@
+/* LAYOUT: GRID
+-------------------------------------------- */
+
+.container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+		max-width: 1200px;
+	}
+
+}
+
+/* MAIN
+-------------------------------------------- */
+
+.vlt-main {
+	position: relative;
+	overflow: hidden;
+
+	&--padding {
+		padding: px2rem(140px) 0;
+	}
+
+}
+
+/* PROTECTED CONTENT
+-------------------------------------------- */
+
+.vlt-content-protected {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: px2rem(100px) 0;
+}
+
+/* MARKUP CONTENT
+-------------------------------------------- */
+
+.vlt-content-markup {
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	ul,
+	ol {
+		line-height: 2;
+
+		ul,
+		ol {
+			padding-left: px2rem(30px);
+			margin-bottom: 0;
+		}
+
+	}
+
+	>ul,
+	>ol {
+		margin-bottom: px2rem(30px);
+	}
+
+	.fluid-width-video-wrapper {
+		margin-bottom: px2rem(30px);
+	}
+
+}
+
+/* ELEMENTOR
+-------------------------------------------- */
+.elementor-column-gap-extended>.elementor-row>.elementor-column>.elementor-element-populated {
+	padding: 0 15px !important;
+}

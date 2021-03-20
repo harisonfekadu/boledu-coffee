@@ -1,0 +1,34 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888/boledu-coffee-2
+Data file = /Applications/MAMP/htdocs/boledu-coffee-2/wp-content/themes/gilber/inc/demo/demo-content.xml
+Widget file = /Applications/MAMP/htdocs/boledu-coffee-2/wp-content/themes/gilber/inc/demo/widgets.wie
+Customizer file = /Applications/MAMP/htdocs/boledu-coffee-2/wp-content/themes/gilber/inc/demo/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,70 @@
+/* WIDGET: BUTTON
+-------------------------------------------- */
+
+.vlt-btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	line-height: 1.1;
+	text-decoration: none;
+	border: none;
+	transition: all 300ms;
+	box-shadow: none;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+
+	&:disabled,
+	&.disabled {
+		pointer-events: none;
+		cursor: not-allowed;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+}
+
+/* BUTTON PRIMARY
+-------------------------------------------- */
+
+.vlt-btn--primary {
+	color: $c1;
+	background-color: $ac1;
+
+	&:hover {
+		color: $c1;
+		background-color: transparent;
+		box-shadow: inset 0 0 0 1px $c1;
+	}
+
+}
+
+/* BUTTON PRIMARY
+-------------------------------------------- */
+
+.vlt-btn--secondary {
+	color: $c1;
+	background-color: transparent;
+	box-shadow: inset 0 0 0 1px $c1;
+
+	&:hover {
+		color: $c1;
+		background-color: $ac1;
+		box-shadow: inset 0 0 0 1px $ac1;
+	}
+
+}
+
+/* BUTTON SIZES
+-------------------------------------------- */
+
+.vlt-btn,
+.vlt-btn--md {
+	height: px2rem(45px);
+	padding: 0 px2rem(45px);
+}

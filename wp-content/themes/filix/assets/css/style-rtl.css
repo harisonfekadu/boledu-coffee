@@ -1,0 +1,252 @@
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+body p,
+.elementor-element,
+.elementor-text-editor,
+.elementor-image {
+    text-align: right;
+}
+
+.elementor-element.elementor-align-center {
+    text-align: center;
+}
+
+.price_info_two .price_head .p_head p,
+.text-center p,
+.text-center h1,
+.text-center h2,
+.text-center h3,
+.text-center h4,
+.text-center h5,
+.text-center h6 {
+    text-align: center !important;
+}
+
+.elementor-icon {
+    float: right;
+}
+
+header.header .navbar .hamburger .bar_icon{
+    margin-left: 0;
+    margin-right: 30px;
+}
+header.header .navbar .hamburger .m_close{
+    left: 85px;
+}
+.hero_warp .banner_content{
+    max-width: 500px;
+    text-align: right;
+    margin-left: 0;
+    margin-right: auto
+}
+.hero_warp .banner_content .exp_list li + li{
+    padding-left: 0px;
+    padding-right: 35px;
+}
+.hero_warp .banner_content .exp_list li + li:before{
+    left: auto;
+    right: 10px;
+}
+.portfolio_item .port_text,.about_wrap,.blog_wrap,.job_apply_area,.job_details_area,.portfolio_single_content,.request_form_wrap,.bg_strock_text,.capabiliti_wrap,.job_listing_area,.testimonial_wrap{
+    text-align: right;
+}
+.about_wrap .about_title,.capabiliti_wrap .capabiliti_title,.testimonial_wrap .test_left .test_title{
+    padding-left: 77px;
+}
+.about_wrap .about_title:before,.capabiliti_wrap .capabiliti_title:before,.testimonial_wrap .test_left .test_title:before{
+    right: auto;
+    left: 0;
+}
+.about_wrap .about_content{
+    padding-right: 215px;
+    text-align: right;
+    padding-left: 0;
+}
+.about_wrap .about_content .bg_text{
+    right: -100px;
+    left: auto;
+}
+.testimonial_wrap .test_left .test_title{
+    font-size: 72px;
+}
+.footer .footer_social li + li{
+    margin-left: 0;
+    margin-right: 30px;
+}
+header.header.header_style_one .navbar .header_menu ul li.nav-item{
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.inner_banner.hero_warp .banner_content{
+    max-width: 100%;
+}
+.blog_single_item .blog_post .post_content .post_info li img{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.widget .media .media-left,.job_listing .listing_tab .list_item figure,.appz_catagory_single .catagory_item{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.blog_single_item .blog_post .post_content .post_info li.float-right,.comment-list li .media .media-body .reply_body .float-right{
+    float: left !important;
+}
+.widget.widget_tags ul li{
+    margin-right: 0;
+    margin-left: 16px;
+}
+.hero_warp.blog_single_banner .banner_content .post_info li img{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.hero_warp.blog_single_banner .banner_content .post_info li + li{
+    margin-right: 25px;
+    margin-left: 0;
+}
+.comment-list li .media .media-left{
+    margin-left: 30px;
+    margin-right: 0;
+}
+.blog_single_content .blog_sing_share .blog_social li + li{
+    margin-right: 20px;
+    margin-left: 0;
+}
+.job_apply_area .pl_70{
+    padding-right: 70px;
+}
+.apply_form input[type=text], .apply_form input[type=email], .apply_form textarea, .apply_form .selectpickers{
+    padding-left: 0;
+    padding-right: 30px;
+}
+.file_upload .upload_item label i{
+    margin-left: 13px;
+    margin-right: 0;
+}
+.file_upload {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.job_info{
+    padding: 50px 40px;
+}
+.job_listing .job_list_tab .list_item_tab + .list_item_tab {
+    margin-right: 50px;
+    margin-left: 0;
+}
+.job_listing .listing_tab .list_item .joblisting_text ul li{
+    float: right;
+    border-left: 0px;
+    border-right: 2px solid #aeb3c3;
+}
+.job_listing .listing_tab .list_item .joblisting_text{
+    border-left: 0px;
+    border-right: 1px solid #eeebf7;
+    padding-right: 25px;
+    padding-left: 0;
+}
+.job_listing .listing_tab .list_item .joblisting_text ul li:first-child{
+    padding-left: 10px;
+}
+.job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist,.job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist .like-btn{
+    float: left;
+}
+.job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist .like-btn{
+    margin-left: 0;
+    margin-right: 20px;
+}
+.job_deatails_content ul li{
+    padding-right: 36px;
+    padding-left: 0;
+}
+.job_deatails_content ul li i{
+    left: auto;
+    right: 0;
+}
+.portfolio_warp{
+    overflow: hidden;
+}
+.job_info .info_item{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.job_info .info_item i{
+    left: auto;
+    right: 0;
+}
+
+@media (max-width:1199px){
+    .portfolio_item .port_text{
+        left: -30px;
+    }
+    .portfolio_item .exp{
+        right: -40px;
+    }
+    .about_wrap .about_content{
+        padding-right: 100px;
+    }
+    .about_wrap .about_content h4 br{
+        display: none;
+    }
+    .testimonial_wrap .client_user_img .user_slider_item.slick-center{
+        transform: scale(0.8);
+    }
+}
+@media (max-width: 1024px){
+    .about_wrap .container .about_content {
+        padding-left: 0px;
+    }
+}
+@media (max-width:991px){
+    .testimonial_wrap .test_left .test_title:before{
+        right: auto !important;
+    }
+    .job_apply_area .pl_70{
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:767px){
+    .about_wrap .container .about_content{
+        padding-right: 0;
+    }
+    .hero_warp .social_link{
+        bottom: 20px;
+    }
+    .blog_single_wrap .blog_single_content .blog_sing_share .blog_social li + li{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .job_listing .listing_tab .item {
+        width: 100%;
+    }
+    .job_listing .listing_tab .list_item{
+        display: block;
+    }
+    .job_listing .listing_tab .list_item .joblisting_text{
+        padding: 0;
+        border: 0px;
+    }
+    .job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist{
+        float: right;
+    }
+}
+
+@media (max-width: 576px){
+    .hero_warp .container .banner_content .banner_title {
+        font-size: 80px;
+        line-height: 82px;
+    }
+    .hero_warp .container .banner_content .exp_list li + li{
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 991px){
+    .blog_content {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+}

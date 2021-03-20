@@ -1,0 +1,24 @@
+/* ANCHOR: CALENDAR
+-------------------------------------------- */
+
+.vlt-widget.widget_calendar {
+
+	tr,
+	td,
+	th {
+		padding: px2rem(6px) px2rem(5px);
+		text-align: center;
+	}
+
+	caption {
+		padding: px2rem(15px) 0 0;
+		color: $c1;
+	}
+
+	#today {
+		color: $c1;
+		font-weight: 600;
+		background-color: $ac1;
+	}
+
+}

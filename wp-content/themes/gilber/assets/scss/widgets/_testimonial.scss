@@ -1,0 +1,33 @@
+/* WIDGET: TESTIMONIAL
+-------------------------------------------- */
+
+.vlt-testimonial {
+	transition: opacity 300ms;
+
+	&__text {
+		font-size: px2rem(15px);
+		color: rgba($c1, 0.6);
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+
+	}
+
+	&__meta {
+		margin-top: px2rem(70px);
+	}
+
+	&__name {
+		margin: 0;
+		font-weight: 600;
+	}
+
+	&__function {
+		margin-top: px2rem(10px);
+		font-size: px2rem(15px);
+		font-weight: 500;
+		color: rgba($c1, 0.8);
+	}
+
+}

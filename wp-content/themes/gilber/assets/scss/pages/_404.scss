@@ -1,0 +1,38 @@
+/* PAGE: 404
+-------------------------------------------- */
+
+.vlt-page--404 {
+	padding: 30vh 0;
+	text-align: center;
+
+	.vlt-404-icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: px2rem(150px);
+		width: px2rem(150px);
+		margin-bottom: px2rem(50px);
+		color: $c1;
+		border-radius: 100%;
+		background-color: $ac1;
+
+		svg {
+			height: px2rem(100px)
+		}
+
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	p {
+		max-width: px2rem(320px);
+		margin: px2rem(30px) auto 0;
+	}
+
+	.vlt-btn {
+		margin-top: px2rem(30px);
+	}
+
+}

@@ -1,0 +1,43 @@
+/* WIDGET: EXPERIENCE BLOCK
+-------------------------------------------- */
+
+.vlt-experience-block {
+	padding: px2rem(70px) px2rem(75px) px2rem(50px) px2rem(50px);
+	text-align: right;
+	border: 1px solid rgba($c1, 0.4);
+	border-right: none;
+
+	&__number {
+		margin-bottom: px2rem(50px);
+		margin-right: px2rem(-4px);
+		font-size: px2rem(200px);
+		font-weight: 500;
+		color: $c1;
+		line-height: 1.1;
+
+		span {
+			margin-left: px2rem(8px);
+		}
+
+	}
+
+	&__title {
+		position: relative;
+		margin: px2rem(35px) 0 0 0;
+		font-size: px2rem(22px);
+		font-weight: 400;
+		line-height: 1.5;
+
+		&::before {
+			content: '';
+			position: absolute;
+			bottom: px2rem(10px);
+			left: 0;
+			width: px2rem(77px);
+			height: 1px;
+			background-color: $c1;
+		}
+
+	}
+
+}

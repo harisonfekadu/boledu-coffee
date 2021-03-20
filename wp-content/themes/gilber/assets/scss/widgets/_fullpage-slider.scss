@@ -1,0 +1,169 @@
+/* WIDGET: FULLPAGE SLIDER
+-------------------------------------------- */
+
+.vlt-fullpage-slider {
+	height: 100vh;
+
+	// section
+	.vlt-section {
+		flex: 1 1 auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: $c2;
+
+		&__vertical-align {
+			flex: 0 0 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			min-height: 100%;
+			width: 100%;
+			overflow: hidden;
+		}
+
+		&__content {
+			flex: 1 1 auto;
+			display: flex;
+			align-items: center;
+			position: relative;
+			min-height: 100%;
+			width: 100%;
+			padding: px2rem(120px) px2rem(120px);
+			z-index: 2;
+
+			@include mq('small') {
+				padding: px2rem(120px) 0;
+			}
+
+		}
+
+		// proejcts
+		.vlt-section__projects-background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: none;
+			z-index: -1;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transform: scale(1.15);
+				transition: transform 2.5s, opacity 1.5s;
+				will-change: transform, opacity;
+				opacity: 0;
+
+				&.is-active {
+					opacity: 1;
+					transform: scale(1);
+				}
+
+			}
+
+		}
+
+		// ken burn effect
+		.vlt-section__ken-burn-background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: none;
+			z-index: -1;
+
+			&.has-mobile-image {
+
+				img:nth-child(2) {
+					display: none;
+				}
+
+				@include mq('small') {
+
+					img:nth-child(1) {
+						display: none;
+					}
+
+					img:nth-child(2) {
+						display: block;
+					}
+
+				}
+
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transform: scale(1.15);
+				transition: transform 2.5s;
+				will-change: transform;
+			}
+
+		}
+
+		&.active .vlt-section__ken-burn-background img {
+			transform: scale(1);
+			transition: transform 5s;
+		}
+
+	}
+
+	&-progress-bar {
+		position: fixed;
+		top: 50%;
+		right: px2rem(30px);
+		width: 2px;
+		height: px2rem(450px);
+		border-radius: px2rem(5px);
+		background-color: $c1;
+		transform: translate(0, -50%);
+		backface-visibility: hidden;
+		z-index: z('slider-progress-bar');
+
+		@include mq('xlarge', min) {
+			right: px2rem(60px);
+		}
+
+		@media (max-height: 700px) {
+			height: px2rem(300px);
+		}
+
+		@include mq('small') {
+			display: none;
+		}
+
+		span {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			border-radius: px2rem(5px);
+			background-color: $ac1;
+			transform: scaleY(0);
+			transform-origin: top;
+			transition: transform 1s;
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+/* WIDGET: ANIMATE ELEMENT
+-------------------------------------------- */
+
+.vlt-animate-element {
+	opacity: 0;
+
+	&.animate__animated {
+		opacity: 1;
+	}
+
+}
+
+.vlt-fullpage-slider .vlt-animate-element {
+	opacity: 1;
+}

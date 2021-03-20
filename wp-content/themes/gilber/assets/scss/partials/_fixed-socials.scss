@@ -1,0 +1,54 @@
+/* PARTIAL: FIXED SOCIALS
+-------------------------------------------- */
+
+.vlt-fixed-socials {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: px2rem(30px - 11px);
+	bottom: 0;
+	padding: px2rem(100px) 0;
+	color: $c1;
+	pointer-events: none;
+	z-index: z('socials-fixed');
+
+	@include mq('xlarge', min) {
+		left: px2rem(60px - 11px);
+		padding: px2rem(105px) 0;
+	}
+
+	@include mq('small') {
+		display: none;
+	}
+
+	@include admin-sticky-fix;
+
+	&::before,
+	&::after {
+		content: '';
+		width: 1px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: rgba($c1, 0.4);
+	}
+
+	&::before {
+		margin-bottom: px2rem(50px);
+	}
+
+	&::after {
+		margin-top: px2rem(50px);
+	}
+
+	a {
+		pointer-events: auto;
+
+		&+a {
+			margin-top: px2rem(35px);
+		}
+
+	}
+
+}

@@ -1,0 +1,90 @@
+.edit-post-visual-editor.editor-styles-wrapper {
+    background: #161616;
+    background-color: #161616;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: Gilroy;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    text-transform: none;
+    color: #999999;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+:root {
+    --p1: #cf000f;
+    --pf: Gilroy;
+}
+
+.edit-post-visual-editor.editor-styles-wrapper h1,
+.edit-post-visual-editor.editor-styles-wrapper .editor-post-title__input {
+    font-family: Gilroy;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.edit-post-visual-editor.editor-styles-wrapper h2 {
+    font-family: Gilroy;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.edit-post-visual-editor.editor-styles-wrapper h3 {
+    font-family: Gilroy;
+    font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 1.35;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.edit-post-visual-editor.editor-styles-wrapper h4 {
+    font-family: Gilroy;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.edit-post-visual-editor.editor-styles-wrapper h5 {
+    font-family: Gilroy;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.edit-post-visual-editor.editor-styles-wrapper h6 {
+    font-family: Gilroy;
+    font-size: .9375rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.wp-block-quote,
+.wp-block-pullquote {
+    font-family: Gilroy;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.8;
+    text-transform: none;
+    color: #ffffff;
+}

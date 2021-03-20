@@ -1,0 +1,643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-10 11:28+0600\n"
+"PO-Revision-Date: 2021-03-10 11:29+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: acf-rgba-color-picker/acf-rgba-color-picker.php:73
+#, php-format
+msgid "%1$s requires ACF PRO v%2$s or higher to be installed and activated."
+msgstr ""
+
+#: acf-rgba-color-picker/acf-rgba-color-picker.php:109
+msgid "Plugins by dreihochzwo"
+msgstr ""
+
+#: acf-rgba-color-picker/acf-rgba-color-picker.php:129
+msgid "Thank you for using my plugins!"
+msgstr ""
+
+#: acf-rgba-color-picker/acf-rgba-color-picker.php:138
+msgid "Documentation"
+msgstr ""
+
+#: acf-rgba-color-picker/acf-rgba-color-picker.php:147
+msgid "Please consider making a small donation!"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:36
+msgid "RGBA Color Picker"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:84
+msgid "Clear"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:85
+msgid "Default"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:86
+msgid "Select Color"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:87
+msgid "Current Color"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:177
+msgid "Default Value"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:186
+msgid "Color Palette"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:187
+msgid ""
+"Enter color codes separated by semicolons. You can use HEX or RGBA color "
+"codes and can also mix them (e.g. #2ecc71; rgba(50,40,30,0.5).<br><br>This "
+"can (and is maybe) overwritten by the \"acf/acfrb_color_picker/palette\" "
+"filter."
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:194
+msgid "Hide Color Palette"
+msgstr ""
+
+#: acf-rgba-color-picker/fields/acf-rgba-color-picker-v5.php:195
+msgid "Don't show a color palette in the color picker"
+msgstr ""
+
+#: filix-core.php:113 filix-core.php:129
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: filix-core.php:270
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: filix-core.php:271
+msgid "Filix core"
+msgstr ""
+
+#: filix-core.php:272 filix-core.php:292
+msgid "Elementor"
+msgstr ""
+
+#: filix-core.php:290 filix-core.php:310
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: filix-core.php:291 filix-core.php:311
+msgid "Filix Core"
+msgstr ""
+
+#: filix-core.php:312
+msgid "PHP"
+msgstr ""
+
+#: filix-core.php:330
+msgid "Filix Elements"
+msgstr ""
+
+#: inc/changelogs.php:18
+msgid "You just have activated the "
+msgstr ""
+
+#: inc/changelogs.php:20
+msgid ""
+"In this version we have made the following major changes. You can see the "
+"full list of changelogs "
+msgstr ""
+
+#: inc/changelogs.php:21
+msgid "here"
+msgstr ""
+
+#: inc/changelogs.php:45
+msgid "Dismiss"
+msgstr ""
+
+#: inc/extra.php:38
+msgid "Share: "
+msgstr ""
+
+#: inc/extra.php:63 widgets/Filix_jobs.php:186
+msgid "All"
+msgstr ""
+
+#: post-type/job.pt.php:79 post-type/portfolio.pt.php:80
+#: post-type/service.pt.php:78
+msgid " Categories"
+msgstr ""
+
+#: post-type/job.pt.php:89
+msgid " Locations"
+msgstr ""
+
+#: post-type/job.pt.php:99
+msgid " Type"
+msgstr ""
+
+#: widgets/Filix_about.php:32 widgets/Filix_about.php:53
+msgid "About Section"
+msgstr ""
+
+#: widgets/Filix_about.php:60 widgets/Filix_capabilities.php:60
+#: widgets/Filix_contact.php:60 widgets/Filix_hero.php:102
+#: widgets/Filix_hero.php:340 widgets/Filix_interest.php:60
+#: widgets/Filix_interest.php:94 widgets/Filix_jobs.php:60
+#: widgets/Filix_testimonial.php:63 widgets/Filix_testimonial.php:143
+msgid "Title Text"
+msgstr ""
+
+#: widgets/Filix_about.php:70 widgets/Filix_capabilities.php:70
+#: widgets/Filix_testimonial.php:73
+msgid "Title Underscore"
+msgstr ""
+
+#: widgets/Filix_about.php:72 widgets/Filix_capabilities.php:72
+#: widgets/Filix_testimonial.php:75
+msgid "Show"
+msgstr ""
+
+#: widgets/Filix_about.php:73 widgets/Filix_capabilities.php:73
+#: widgets/Filix_testimonial.php:76
+msgid "Hide"
+msgstr ""
+
+#: widgets/Filix_about.php:89 widgets/Filix_capabilities.php:89
+#: widgets/Filix_testimonial.php:92
+msgid "Section Animate Ttitle"
+msgstr ""
+
+#: widgets/Filix_about.php:99
+msgid "About Section Content"
+msgstr ""
+
+#: widgets/Filix_about.php:115 widgets/Filix_capabilities.php:114
+#: widgets/Filix_contact.php:97 widgets/Filix_hero.php:365
+#: widgets/Filix_interest.php:128
+msgid "Style Title"
+msgstr ""
+
+#: widgets/Filix_about.php:122 widgets/Filix_capabilities.php:121
+#: widgets/Filix_contact.php:104 widgets/Filix_interest.php:135
+#: widgets/Filix_testimonial.php:204 widgets/Filix_testimonial.php:235
+msgid "Title Color"
+msgstr ""
+
+#: widgets/Filix_about.php:133
+msgid "About Content Color"
+msgstr ""
+
+#: widgets/Filix_about.php:156 widgets/Filix_capabilities.php:143
+#: widgets/Filix_client_logos.php:92 widgets/Filix_contact.php:138
+#: widgets/Filix_hero.php:434 widgets/Filix_jobs.php:144
+#: widgets/Filix_portfolio.php:153 widgets/Filix_testimonial.php:297
+msgid "Section Styling"
+msgstr ""
+
+#: widgets/Filix_about.php:164 widgets/Filix_capabilities.php:151
+#: widgets/Filix_client_logos.php:120 widgets/Filix_contact.php:146
+#: widgets/Filix_hero.php:442 widgets/Filix_interest.php:177
+#: widgets/Filix_portfolio.php:161 widgets/Filix_portfolio_filterable.php:170
+msgid "Background Color"
+msgstr ""
+
+#: widgets/Filix_about.php:179 widgets/Filix_capabilities.php:165
+#: widgets/Filix_client_logos.php:131 widgets/Filix_contact.php:161
+#: widgets/Filix_hero.php:473 widgets/Filix_jobs.php:151
+#: widgets/Filix_portfolio.php:172 widgets/Filix_portfolio_filterable.php:181
+#: widgets/Filix_testimonial.php:315
+msgid "Section padding"
+msgstr ""
+
+#: widgets/Filix_capabilities.php:32
+msgid "Capabilities Tabs"
+msgstr ""
+
+#: widgets/Filix_capabilities.php:53
+msgid "Capabilities Section"
+msgstr ""
+
+#: widgets/Filix_capabilities.php:99
+msgid "Capabilites Description"
+msgstr ""
+
+#: widgets/Filix_client_logos.php:32 widgets/Filix_client_logos.php:54
+msgid "Client Logos"
+msgstr ""
+
+#: widgets/Filix_client_logos.php:62
+msgid "Client Logo Upload"
+msgstr ""
+
+#: widgets/Filix_client_logos.php:69
+msgid "Client Website Link"
+msgstr ""
+
+#: widgets/Filix_client_logos.php:80
+msgid "Client Logo"
+msgstr ""
+
+#: widgets/Filix_client_logos.php:100
+msgid "Logo Opacity (%)"
+msgstr ""
+
+#: widgets/Filix_contact.php:32 widgets/Filix_contact.php:53
+msgid "Contact Form"
+msgstr ""
+
+#: widgets/Filix_contact.php:73
+msgid "Contact Form 7"
+msgstr ""
+
+#: widgets/Filix_contact.php:80
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: widgets/Filix_contact.php:81
+msgid ""
+"Make the contact form with Contact From 7 plugin and place the From "
+"shortcode copy to paste here. "
+msgstr ""
+
+#: widgets/Filix_contact.php:115 widgets/Filix_interest.php:146
+msgid "Interesting Content Color"
+msgstr ""
+
+#: widgets/Filix_hero.php:32
+msgid "Hero"
+msgstr ""
+
+#: widgets/Filix_hero.php:58
+msgid "Select Style"
+msgstr ""
+
+#: widgets/Filix_hero.php:64
+msgid "Style"
+msgstr ""
+
+#: widgets/Filix_hero.php:68
+msgid "Style One ( Default )"
+msgstr ""
+
+#: widgets/Filix_hero.php:69
+msgid "Style Two ( Particle )"
+msgstr ""
+
+#: widgets/Filix_hero.php:70
+msgid "Style Three ( Video )"
+msgstr ""
+
+#: widgets/Filix_hero.php:71
+msgid "Style Four ( Self-Video )"
+msgstr ""
+
+#: widgets/Filix_hero.php:72
+msgid "Style Five ( SlideShow )"
+msgstr ""
+
+#: widgets/Filix_hero.php:80
+msgid "Particles Color"
+msgstr ""
+
+#: widgets/Filix_hero.php:81
+msgid "Particle Moving Objects Color"
+msgstr ""
+
+#: widgets/Filix_hero.php:95 widgets/Filix_hero.php:123
+#: widgets/Filix_jobs.php:54 widgets/Filix_testimonial.php:197
+msgid "Title"
+msgstr ""
+
+#: widgets/Filix_hero.php:116 widgets/Filix_hero.php:394
+msgid "Attribute Words"
+msgstr ""
+
+#: widgets/Filix_hero.php:132
+msgid "Attributes"
+msgstr ""
+
+#: widgets/Filix_hero.php:145
+msgid "Slider Iamges"
+msgstr ""
+
+#: widgets/Filix_hero.php:155
+msgid "Slide Image"
+msgstr ""
+
+#: widgets/Filix_hero.php:163
+msgid "Upload Images"
+msgstr ""
+
+#: widgets/Filix_hero.php:175
+msgid "Video Background"
+msgstr ""
+
+#: widgets/Filix_hero.php:184
+msgid "Video URL"
+msgstr ""
+
+#: widgets/Filix_hero.php:195
+msgid "Self Video URL"
+msgstr ""
+
+#: widgets/Filix_hero.php:211
+msgid "Socail Profile Links"
+msgstr ""
+
+#: widgets/Filix_hero.php:217 wp-widgets/Filix_author_box.php:135
+msgid "Facebook Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:219 widgets/Filix_hero.php:230
+#: widgets/Filix_hero.php:241 widgets/Filix_hero.php:252
+#: widgets/Filix_hero.php:263 widgets/Filix_hero.php:274
+#: widgets/Filix_hero.php:285 widgets/Filix_hero.php:296
+#: widgets/Filix_hero.php:307 widgets/Filix_hero.php:318
+msgid "https://"
+msgstr ""
+
+#: widgets/Filix_hero.php:228 wp-widgets/Filix_author_box.php:139
+msgid "Twitter Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:239
+msgid "Instagram Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:250
+msgid "LinkedIn Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:261 wp-widgets/Filix_author_box.php:147
+msgid "Behance Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:272
+msgid "GitHub Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:283 wp-widgets/Filix_author_box.php:151
+msgid "Dribble Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:294
+msgid "Pinterest Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:305
+msgid "QQ Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:316
+msgid "YouTube Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:333
+msgid "Scroll Link"
+msgstr ""
+
+#: widgets/Filix_hero.php:350
+msgid "Link To"
+msgstr ""
+
+#: widgets/Filix_hero.php:352
+msgid "#section ID"
+msgstr ""
+
+#: widgets/Filix_hero.php:372 widgets/Filix_hero.php:401
+#: widgets/Filix_jobs.php:69
+msgid "Text Color"
+msgstr ""
+
+#: widgets/Filix_hero.php:419
+msgid "Separator Color"
+msgstr ""
+
+#: widgets/Filix_hero.php:457 widgets/Filix_testimonial.php:305
+msgid "Background Image"
+msgstr ""
+
+#: widgets/Filix_interest.php:32
+msgid "Interesting"
+msgstr ""
+
+#: widgets/Filix_interest.php:53
+msgid "Interesting Section"
+msgstr ""
+
+#: widgets/Filix_interest.php:73
+msgid "Interesting Item Box"
+msgstr ""
+
+#: widgets/Filix_interest.php:81
+msgid "Upload Image"
+msgstr ""
+
+#: widgets/Filix_interest.php:104
+msgid "Information Text"
+msgstr ""
+
+#: widgets/Filix_interest.php:113
+msgid "Interesting Item"
+msgstr ""
+
+#: widgets/Filix_interest.php:169 widgets/Filix_portfolio_filterable.php:162
+msgid "Background"
+msgstr ""
+
+#: widgets/Filix_jobs.php:34
+msgid "Jobs"
+msgstr ""
+
+#: widgets/Filix_jobs.php:93
+msgid "Filter"
+msgstr ""
+
+#: widgets/Filix_jobs.php:99
+msgid "All Filter Label"
+msgstr ""
+
+#: widgets/Filix_jobs.php:107 widgets/Filix_portfolio.php:90
+#: widgets/Filix_portfolio_filterable.php:98
+msgid "Order"
+msgstr ""
+
+#: widgets/Filix_jobs.php:119
+msgid "Pagination"
+msgstr ""
+
+#: widgets/Filix_jobs.php:121
+msgid "Yes"
+msgstr ""
+
+#: widgets/Filix_jobs.php:122
+msgid "No"
+msgstr ""
+
+#: widgets/Filix_jobs.php:129
+msgid "Posts Per Page"
+msgstr ""
+
+#: widgets/Filix_jobs.php:215
+msgid "Apply Now"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:32
+msgid "Portfolio"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:56 widgets/Filix_portfolio_filterable.php:56
+msgid "Portfolio Settings"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:62 widgets/Filix_portfolio_filterable.php:71
+msgid "Section Title"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:71 widgets/Filix_portfolio_filterable.php:80
+msgid "Read More Button"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:81 widgets/Filix_portfolio_filterable.php:89
+msgid "Show count"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:103 widgets/Filix_portfolio_filterable.php:112
+msgid "Select Column"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:107 widgets/Filix_portfolio_filterable.php:116
+msgid "2 Column"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:108 widgets/Filix_portfolio_filterable.php:117
+msgid "3 Column"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:123 widgets/Filix_portfolio_filterable.php:132
+msgid "Style Item Title"
+msgstr ""
+
+#: widgets/Filix_portfolio.php:130 widgets/Filix_portfolio_filterable.php:139
+msgid "Item Title Color"
+msgstr ""
+
+#: widgets/Filix_portfolio_filterable.php:32
+msgid "Portfolio Filter Able"
+msgstr ""
+
+#: widgets/Filix_portfolio_filterable.php:62
+msgid "All filter label"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:32
+msgid "Filix Testimonial"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:56
+msgid "Testimonial Section"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:106
+msgid "Clients List"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:113
+msgid "Client Image"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:121
+msgid "Client Iamge"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:134 widgets/Filix_testimonial.php:228
+msgid "Client Feedback"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:153
+msgid "Description"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:163
+msgid "Client Name"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:173
+msgid "Designation"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:182
+msgid "Testimonail Content"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:253
+msgid "Author Title Color"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:275
+msgid "Author Image"
+msgstr ""
+
+#: widgets/Filix_testimonial.php:282
+msgid "Active Color"
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:27
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:30
+msgid "(Filix) Recent Posts"
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:48
+msgid "Recent Posts"
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:89
+msgid "(no title)"
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:148
+msgid "Title:"
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:151
+msgid "Number of posts to show:"
+msgstr ""
+
+#: wp-widgets/Filix_Recent_Posts.php:155
+msgid "Display post date?"
+msgstr ""
+
+#: wp-widgets/Filix_author_box.php:9
+msgid "This is Filix author info widgets."
+msgstr ""
+
+#: wp-widgets/Filix_author_box.php:13
+msgid "(Filix) Author Box"
+msgstr ""
+
+#: wp-widgets/Filix_author_box.php:143
+msgid "Instragram Link"
+msgstr ""

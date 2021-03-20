@@ -1,0 +1,14 @@
+/* PARTIAL: POST META
+-------------------------------------------- */
+
+.vlt-post-meta {
+	font-weight: 500;
+	font-size: px2rem(15px);
+
+	span+span::before {
+		content: '/';
+		margin-right: px2rem(6px);
+		margin-left: px2rem(6px);
+	}
+
+}

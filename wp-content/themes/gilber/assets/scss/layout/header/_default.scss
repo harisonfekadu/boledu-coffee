@@ -1,0 +1,71 @@
+/* HEADER: DEFAULT
+-------------------------------------------- */
+
+.vlt-default-menu__navigation .sf-menu {
+	height: 100%;
+	font-size: 0;
+	pointer-events: auto;
+
+	>li {
+		display: inline-flex;
+		align-items: center;
+		float: none;
+		min-height: 100%;
+		padding: 0;
+
+		>a {
+			padding: px2rem(25px) 0;
+			font-size: px2rem(15px);
+			text-transform: uppercase;
+			letter-spacing: 0.02em;
+			font-weight: 500;
+		}
+
+	}
+
+	>li+li {
+		margin-left: px2rem(50px);
+	}
+
+	>li.current-menu-item>a,
+	>li.active>a,
+	>li:hover>a,
+	>li.sfHover>a {
+		color: $ac1;
+	}
+
+	ul.sub-menu {
+		left: px2rem(-30px);
+		white-space: nowrap;
+		padding: px2rem(20px) 0;
+		min-width: px2rem(220px);
+		background-color: $c2;
+
+		ul.sub-menu {
+			top: px2rem(-20px);
+			left: 100%;
+		}
+
+		li {
+			padding-left: px2rem(30px);
+			padding-right: px2rem(30px);
+		}
+
+		a {
+			padding: px2rem(5px) 0;
+			font-size: px2rem(15px);
+			line-height: 1.8;
+			font-weight: normal;
+			color: $c4;
+		}
+
+		li.current-menu-item>a,
+		li:hover>a,
+		li.active>a,
+		li.sfHover>a {
+			color: $c1;
+		}
+
+	}
+
+}

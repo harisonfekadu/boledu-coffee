@@ -1,0 +1,57 @@
+/* WORDPRESS: SIDEBAR
+-------------------------------------------- */
+
+.vlt-sidebar--right {
+	padding-left: px2rem(25px);
+
+	@include mq('large') {
+		padding-left: 0;
+		margin-top: px2rem(80px);
+	}
+
+}
+
+/* WIDGET
+-------------------------------------------- */
+
+.vlt-widget {
+	display: block;
+
+	&~& {
+		margin-top: px2rem(45px);
+	}
+
+	ul {
+		list-style-type: none;
+
+		li {
+			clear: both;
+		}
+
+		.children,
+		.sub-menu {
+			margin-left: px2rem(10px);
+		}
+
+	}
+
+	&__title {
+		margin: 0 0 px2rem(15px) 0;
+		padding: 0;
+	}
+
+}
+
+// import
+@import 'widgets/categories',
+'widgets/search-form',
+'widgets/archive',
+'widgets/pages',
+'widgets/meta',
+'widgets/recent-comments',
+'widgets/recent-entries',
+'widgets/nav-menu',
+'widgets/tag-cloud',
+'widgets/text',
+'widgets/rss',
+'widgets/calendar';

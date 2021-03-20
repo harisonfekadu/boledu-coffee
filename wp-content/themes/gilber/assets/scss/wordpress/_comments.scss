@@ -1,0 +1,135 @@
+/* WORDPRESS: COMMENTS
+-------------------------------------------- */
+
+.vlt-page-comments {
+	padding-top: px2rem(140px);
+	padding-bottom: px2rem(200px);
+	background-color: $c5;
+
+	&__title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: px2rem(60px);
+	}
+
+	.vlt-comments,
+	.vlt-comments ul.children {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		li.vlt-comment-item {
+			padding: px2rem(45px) 0;
+
+			&:first-child {
+				padding-top: 0;
+			}
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
+		}
+
+	}
+
+	.vlt-comments ul.children {
+		margin-top: px2rem(90px);
+		margin-left: px2rem(80px);
+
+		@include mq('medium') {
+			margin-left: 0;
+		}
+
+		li.vlt-comment-item:last-child {
+			padding-bottom: 0;
+		}
+
+	}
+
+	&__form {
+		margin-top: px2rem(100px);
+	}
+
+	&__list .comment-respond {
+		margin: px2rem(80px) 0 0;
+	}
+
+	&__list,
+	&__form {
+
+		@include mq('xlarge', min) {
+			padding-left: px2rem(200px);
+			padding-right: px2rem(200px);
+		}
+
+	}
+
+}
+
+/* COMMENT ITEM
+-------------------------------------------- */
+
+.vlt-comment-item__inner {
+	display: flex;
+
+	.vlt-comment-avatar {
+		flex-shrink: 0;
+		margin-right: px2rem(35px);
+
+		@include mq('medium') {
+			display: none;
+		}
+
+		img {
+			max-width: px2rem(80px);
+			border-radius: 50%;
+		}
+
+	}
+
+	.vlt-comment-content {
+		flex-basis: 100%;
+	}
+
+	.vlt-comment-name {
+		font-size: px2rem(16px);
+		line-height: inherit;
+	}
+
+	.vlt-comment-metas {
+		margin-left: px2rem(16px);
+		color: rgba($c1, 0.6);
+		font-size: px2rem(13px);
+		text-transform: uppercase;
+	}
+
+	.vlt-comment-header {
+		display: flex;
+		align-items: center;
+	}
+
+	.vlt-comment-text {
+		margin-top: px2rem(10px);
+		color: rgba($c1, 0.6);
+	}
+
+	.comment-reply-link {
+		display: inline-flex;
+		margin-top: px2rem(35px);
+		padding: px2rem(6px) px2rem(23px);
+		font-weight: 600;
+		font-size: px2rem(13px);
+		color: $c1;
+		box-shadow: inset 0 0 0 1px $c1;
+		background-color: transparent;
+
+		&:hover {
+			box-shadow: inset 0 0 0 1px $ac1;
+			background-color: $ac1;
+		}
+
+	}
+
+}

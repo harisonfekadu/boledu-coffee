@@ -1,0 +1,42 @@
+/* ANCHOR: RSS
+-------------------------------------------- */
+
+.vlt-widget.widget_rss {
+
+	.vlt-widget__title {
+
+		img {
+			margin-right: px2rem(4px);
+			filter: grayscale(100%);
+		}
+
+	}
+
+	li {
+
+		.rsswidget {
+			color: $c1;
+		}
+
+		.rss-date {
+			display: block;
+			margin: px2rem(10px) 0;
+		}
+
+		cite {
+			margin: px2rem(10px) 0 0;
+
+			&::before {
+				content: '-';
+				margin-right: px2rem(6px);
+			}
+
+		}
+
+	}
+
+	li+li {
+		margin-top: px2rem(30px);
+	}
+
+}

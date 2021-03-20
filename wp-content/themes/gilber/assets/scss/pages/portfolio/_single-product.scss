@@ -1,0 +1,43 @@
+/* PORTFOLIO: SINGLE PRODUCT
+-------------------------------------------- */
+
+.vlt-is--single-product .vlt-main {
+
+	.vlt-product-hero-title {
+		padding-top: px2rem(400px);
+		padding-bottom: px2rem(100px);
+
+		&__details {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: px2rem(60px);
+			margin-top: px2rem(280px);
+
+			@include mq('large') {
+				grid-template-columns: repeat(2, 1fr);
+			}
+
+			@include mq('medium') {
+				grid-template-columns: repeat(1, 1fr);
+			}
+
+			p {
+				margin-top: px2rem(8px);
+				font-size: px2rem(16px);
+				color: rgba($c1, 0.7);
+			}
+
+		}
+
+	}
+
+	p {
+		color: rgba($c1, 0.6);
+
+		&.large {
+			font-size: px2rem(22px);
+		}
+
+	}
+
+}
